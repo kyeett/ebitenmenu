@@ -170,7 +170,7 @@ func main() {
 		components: []UIComponent{NewMenu(gfx.IV(width/2, height/2), 100)},
 	}
 
-	if err := ebiten.Run(a.update, width, height, 1, "menu example"); err != nil {
+	if err := ebiten.Run(a.update, width, height, 2, "menu example"); err != nil {
 		log.Fatal(err)
 	}
 }
